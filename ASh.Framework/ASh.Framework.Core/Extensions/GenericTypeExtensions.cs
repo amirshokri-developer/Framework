@@ -1,4 +1,4 @@
-﻿namespace ASh.Framework.EventBus.Extensions
+﻿namespace ASh.Framework.Core.Extensions
 {
     public static class GenericTypeExtensions
     {
