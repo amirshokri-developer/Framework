@@ -2,16 +2,8 @@
 
 namespace ASh.Framework.EventBus.Abstractions
 {
-    public interface IIntegrationEventHandler
+    public interface IIntegrationEventHandler<in TIntegrationEvent> where TIntegrationEvent : IntegrationEvent
     {
-        Task Handle(IntegrationEvent @event);
-    }
-
-    public interface IIntegrationEventHandler<in TIntegrationEvent> : IIntegrationEventHandler
-            where TIntegrationEvent : IntegrationEvent
-    {
-        Task Handle(TIntegrationEvent @event);
-
-        Task IIntegrationEventHandler.Handle(IntegrationEvent @event) => Handle((TIntegrationEvent)@event);
+        Task HandleAsync(TIntegrationEvent @event);
     }
 }

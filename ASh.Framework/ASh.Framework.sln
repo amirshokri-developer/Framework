@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASh.Framework.Domain", "ASh
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASh.Framework.EventBus", "ASh.Framework.EventBus\ASh.Framework.EventBus.csproj", "{6E875CDD-7361-4E85-980B-83F62FA8BC94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASh.Framework.EventBus.RabbitMQ", "ASh.Framework.EventBus.RabbitMQ\ASh.Framework.EventBus.RabbitMQ.csproj", "{2945269E-906B-48ED-9FB5-BC1727118BC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASh.Framework.EventBus.RabbitMQ", "ASh.Framework.EventBus.RabbitMQ\ASh.Framework.EventBus.RabbitMQ.csproj", "{2945269E-906B-48ED-9FB5-BC1727118BC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meeting.API", "Meeting.API\Meeting.API.csproj", "{C03A30C9-8DA4-497F-9598-8F7A27B173AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2945269E-906B-48ED-9FB5-BC1727118BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2945269E-906B-48ED-9FB5-BC1727118BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2945269E-906B-48ED-9FB5-BC1727118BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C03A30C9-8DA4-497F-9598-8F7A27B173AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C03A30C9-8DA4-497F-9598-8F7A27B173AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C03A30C9-8DA4-497F-9598-8F7A27B173AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C03A30C9-8DA4-497F-9598-8F7A27B173AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
